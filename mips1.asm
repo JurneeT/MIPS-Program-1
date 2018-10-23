@@ -51,6 +51,10 @@ li $v0, 11
 addi $a0, $a0, 21
 syscall
 
+li $v0, 11
+addi $a0, $a0, 7
+syscall
+
 
 
 
