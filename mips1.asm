@@ -35,6 +35,17 @@ li $v0, 1
 subi, $a0, $a0, 1
 syscall
 
+li $v0, 1
+addi $a0, $a0, 7
+syscall
+
+addi $v0, $v0, 10 #back to character
+addi $a0, $a0, 2
+syscall
+
+
+
+
 
 
 
