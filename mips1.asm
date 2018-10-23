@@ -31,6 +31,12 @@ li $v0, 1
 subi, $a0, $a0, 2
 syscall
 
+li $v0, 1
+subi, $a0, $a0, 1
+syscall
+
+
+
 
 
 
