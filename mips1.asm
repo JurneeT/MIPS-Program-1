@@ -43,6 +43,9 @@ addi $v0, $v0, 10 #back to character
 addi $a0, $a0, 2
 syscall
 
+li $v0, 11
+addi $a0, $a0, 74
+syscall
 
 
 
