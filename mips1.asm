@@ -63,6 +63,18 @@ li $v0, 11
 subi $a0, $a0, 5
 syscall
 
+li $v0, 11
+subi $a0, $a0, 1
+syscall
+
+li $v0, 11
+subi $a0, $a0, 66
+syscall
+
+li $v0, 11
+subi $a0, $a0, 12
+syscall
+
 
 
 
